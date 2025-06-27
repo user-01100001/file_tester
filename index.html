@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tool Tester</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="theme-toggle">
+    <label class="switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <div class="container">
+    <h1>🧪 Universal Tool Tester</h1>
+    <p>Upload an image or enter text to send it to your backend.</p>
+
+    <form id="toolForm">
+      <input type="file" id="fileInput" />
+      <textarea id="textInput" placeholder="Or paste some text here..."></textarea>
+      <button type="submit">Send to Backend</button>
+    </form>
+
+    <div id="responseBox"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
